@@ -1,0 +1,100 @@
+/* TODO: Add the responsive styles here */
+body{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width:auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .tm-nav-ul {
+    display: flex;
+    /* justify-content: flex-start; */
+  }
+  .tm-nav {
+    text-align: right;
+    margin-top: 30px;
+    float: right;
+  }
+  .tm-welcome-section {
+    margin: 40px 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.tm-section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 37px;
+    width: 100%;
+    margin: 10px 30px 20px 50px;
+    /* margin-left: 115px; */
+}
+.tm-paging-links{
+    padding: 0px;
+    margin: 0px;
+}
+.tm-paging-item {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #2f956d;
+    margin: 7px;
+    width: 24%;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.tm-gallery-page {
+    margin: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: center;
+}
+.tm-gallery {
+    margin-bottom: 0px; 
+     margin-left: 0px;
+}
+.tm-gallery-item {
+    max-width: 350px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tm-cta-section {
+    margin: 0px;
+    width:auto;
+    display: flex;
+}
+.img-fluid {
+    height: auto;
+    width: 1000px;
+    padding: 0px 0px 0px 10px;
+}
+
+.tm-gallery-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1a6692;
+    margin-bottom: 15px;
+}
+/* 19:47 */
+/* 20:42 */

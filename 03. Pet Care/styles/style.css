@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,700;1,800&display=swap');
+@import url("./reset.css");
+@import url("./components.css");
+@import url("./typography.css");
+
+:root{
+    --nav-color: #0f2b59;
+    --primary-color: #ef350d;
+}
+header{
+    background-color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    height: 15vh;
+    align-items: center;
+    /* padding: 4rem 1rem; */
+    padding-top: 3rem;
+    z-index: 2000;
+}
+
+.logo{
+    height: 50px;
+    margin: 10px;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    margin: 20px;
+    list-style-type: none;
+}
+.navigation li a {
+    color: var(--nav-color);
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.hero {
+    margin-top: 10vh;
+    background-image: url(../images/header-bg.png);
+    /* background-position: center center; */
+    background-size: 1980px 756px;
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 900px;
+}
+
+.hero__title{
+    font-size: 90px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    color: white;
+}
+.hero__title span{
+    font-weight: 900;
+    color: white;
+}
+.dog {
+    position: absolute;
+    top: 210px;
+    left: 700px;
+}
+.hero__info {
+    font-size: 20px;
+    width: 720px;
+    margin-left: 10rem;
+    padding: 14rem 4rem;
+    color: white;
+}
+
+.hero p {
+    width: 80%;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.service__title {
+    font-size: 60px;
+    font-weight: revert;
+    text-align: center;
+    
+}
+
+.service__p {
+    font-size: 20px;
+    color: gray;
+    padding: 1rem 36rem;
+    text-align: center;
+    /* width: 900px; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50vh;
+    margin: 4rem 0rem 20rem;
+}
+.animal {
+    /* display: flex; */
+    /* align-self: center; */
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left: 145px;
+    /* background-image: url(../images/service-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    z-index: 2;
+}
+.bg {
+    position: relative;
+    top: 85px;
+    left: 20px;
+    z-index: 1;
+}
+  .card {
+    width: 400px;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #ffefee;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.card h2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 135px 40px 10px 40px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.card p {
+    font-size: 22px;
+    padding: 20px 40px;
+    line-height: 2rem;
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+footer{
+    background-color: white;
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 8rem 13rem;
+  justify-content: space-between;
+  /* height: 20vh; */
+}
+footer h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+footer ul li{
+    padding-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 2rem;
+    padding-bottom: 20px;
+    color: gray;
+    /* margin-top: 3rem; */
+}
+footer img {
+    height: 40px;
+    margin-bottom: 2rem;
+}
+
+
+.why{
+    background-image: url(../images/cats-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 60vh;
+    text-align: center;
+    padding: 11rem;
+}
+.why h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+    z-index: 200;
+}
+.why p {
+    color: white;
+    font-size: 25px;
+    margin: 2rem 27rem;
+    /* width: 50%; */
+    z-index: 2;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact p {
+    /* width: 0px; */
+    font-weight: 700;
+    padding: 0px;
+    margin: 30px;
+}
+.contact span{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+}
+
+
+
+.care{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.care__img{
+    width: 20%;
+}
+.care__info {
+    width: 600px;
+    margin-right: 22rem;
+}
+.care h2 {
+    font-size: 60px;
+    font-weight: 400;
+    padding: 0px 0px 30px;
+}
+.catc {
+    position: relative;
+    top: -150px;
+    left: 290px;
+}
+.care p {
+    font-size: 22px;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    color: gray;
+}
+
+.care span{
+font-weight: 900;
+}
