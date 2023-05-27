@@ -1,2 +1,2 @@
 # Softuni-HTML-CSS
-3 practice exercises for the final course exam
+Practice exercises for the final course exam
