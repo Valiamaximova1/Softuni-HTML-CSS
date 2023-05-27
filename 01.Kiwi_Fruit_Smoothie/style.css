@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("./reset.css");
+
+/* html {
+    font-family: "Lato", sans-serif;
+    padding: 1rem;
+  } */
+  
+  h1,
+  h2,
+  h3, p {
+    font-family: "Montserrat", sans-serif;
+  }
+
+.section{
+  margin: 1.5rem 5rem 4rem ;
+  padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: -1px 4px 25px -4px rgba(0,0,0,0.51);
+-webkit-box-shadow: -1px 4px 25px -4px rgba(0,0,0,0.51);
+-moz-box-shadow: -1px 4px 25px -4px rgba(0,0,0,0.51);
+  }
+
+.img{
+  width: 50%;
+  /* padding: 0.5rem; */
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  padding: 0.25rem;
+  font-weight: bold;
+  border-bottom: 1px dotted green;
+  width: 95%;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  width: 95%;
+  margin-bottom: 1.5rem;
+}
+.col_green{
+  color: green;
+  font-weight: 600;
+
+}
+.products{
+  margin-bottom: 1.5rem;
+  font-size: 17px;
+}
+.text {
+  font-size: 13px;
+  width: 95%;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+td{
+  border: 1px solid green;
+  text-align: center;
+  padding: 2px 0px;
+}
+table{
+  width: 95%;
+}
+th{
+  font-weight: 600;
+  border: 1px solid green;
+  text-align: center;
+  padding: 2px 0px;
+}
+.backgroud_img {
+  position: absolute;
+  z-index: -1;
+  top: 24px;
+  background-size: cover;
+  left: 80px;
+  width: 413px;
+}
+
+
+/* 20:23 */

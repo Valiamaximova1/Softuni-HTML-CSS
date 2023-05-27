@@ -1,0 +1,206 @@
+
+ @import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+p.ar {
+    font-family: Arial, Helvetica;
+    font-size: 3.5rem;
+    font-weight: thin;
+    font-style: oblique;
+    /* text-align: left; */
+    text-align:center;
+    letter-spacing: 3px;
+    text-decoration: line-through;
+    cursor: move;
+    /* width:160px;
+    height:50px;
+    border-width:2px;
+    border-style:solid;
+    border-color:#0053ff;
+    border-radius:15px;
+    border-top-left-radius:30px;
+    border-bottom-style:dotted;
+    border-left-color:#89af4c;
+    text-align:center; */
+    
+
+  }
+  
+  p.tim {
+    font-family: "Times New Roman";
+    font-size: 5em;
+    font-weight: 300;
+    font-style: italic;
+    text-align:right;
+    color: white ;
+    background-color: green;
+    box-sizing: content-box;
+
+
+/* font-style: normal; */
+  }
+  div{
+    background-color: #85c1e9;
+    display: inline-block;
+    text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  
+
+    }
+    
+  p.tim1 {
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: justify;
+    text-indent:40px;
+    color: #05ffb0;
+
+  }
+
+  p.t {
+      /* Разтояние между редовете */
+       line-height: 2.1; 
+       text-overflow: ellipsis;
+       text-transform: uppercase;
+       text-shadow:2px 4px 10px red;
+    }
+  
+      article {
+        width: 500px;
+        height: 200px;
+        background-color: lightgray;
+        overflow: auto;
+        padding: 10px;
+      }
+      
+      /* body {
+        display: grid;
+        grid-template-rows: 100px 400px; 
+        grid-template-columns: 100px auto; 
+      } */
+      
+      /* img.new {
+        position: relative;
+        top: -200px;
+        right: 150px;
+      }
+       */
+
+  @font-face{
+    font-family: "Open Sans";
+    src: url("/fonts/opensans.woff") format("woff");
+  }
+  
+  /* text-align: left;
+     text-align: right;
+     text-align: center;
+     text-align: justify; */
+
+     /* font-style: normal;
+     font-style: italic;
+     font-style: oblique; */
+
+     /* font-weight: thin;
+     font-weight: bold;
+     font-weight: 300; */
+
+     /* Font Size
+      font-size: 1.2em;
+     font-size: 1.5rem;
+     font-size: 24px;
+     font-size: 56pt; */
+
+/* 
+     text-decoration: none;
+     text-decoration: line-through; */
+
+     /* text-indent: 0;
+     text-indent:40px; преди първата дума разтояние*/
+
+     /* text-overflow: clip; */
+
+     /* text-transform: capitalize;
+     text-transform: uppercase;
+     text-transform: lowercase; */
+/* 
+     word-break: normal;
+     word-break: break-all; */
+
+/*  Сянка
+      text-shadow: 2px 4px 10px red;
+      text-shadow: none; */
+
+/* Color
+     color: red;
+     color: #05ffb0;
+     color: rgb(125, 125, 255);
+     color: rgba(255, 0, 0, 0.5); */
+
+     /* Background color
+      background-color: transparent; */
+
+/*      
+     Mouse Cursor
+     cursor: pointer;
+     cursor: move;
+     cursor: none;
+     cursor: col-resize;
+
+  */
+
+  /* overflow: visible;
+                auto
+                scroll
+                hidden 
+*/
+
+/*  max-height: 2000px; 
+    min-height: 5px; 
+*/
+
+
+/* div { 
+        margin: 20px 20px 20px 20px;
+        padding: 30px 30px 30px 30px;
+     margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  margin-right: 0;
+
+    }
+     */
+
+     /* div {
+          box-sizing: content-box;
+          width: 200px;
+          border: 10px solid #5b6dcd;
+          padding: 5px;
+        }
+         */
+
+         /* display: grid; 
+         Grid lines
+Grid cell and grid areas
+Grid tracks (rows or columns)
+
+         
+         */
+
+
+         /*
+         
+        flex-direction: row;
+        display: flex;
+        display: inline-flex;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+
+          */
