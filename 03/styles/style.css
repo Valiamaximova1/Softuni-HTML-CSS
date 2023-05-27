@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("./reset.css");
+@import url("./components.css");
+@import url("./typography.css");
+
+body {
+    margin: 0rem 10rem;
+}
+header {
+    background-image: url(../image/image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    width: 100%;
+}
+.logo {
+    -webkit-box-shadow: 2px 2px 10px 0px #000000;
+    box-shadow: 2px 2px 10px 0px #000000;
+    background-color: transparent;
+    width: 360px;
+    height: 280px;
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    padding: 20px 25px;
+}
+h1 {
+    font-size: 3.2rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+.logo_p{
+    padding: 18px 0px;
+    font-size: 22px;
+    margin-top: 1rem;
+    border-top: 4px solid white;
+    width: 60%;
+}
+blockquote {
+    position: absolute;
+    top: 360px;
+    left: 1260px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(163,154,147);
+    background: linear-gradient(90deg, rgba(163,154,147,1) 18%, rgba(201,199,198,1) 100%);
+    height: 400px;
+    width: 450px;
+    -webkit-box-shadow: 2px 2px 10px 0px #000000;
+    box-shadow: 2px 2px 10px 0px #000000;
+    text-shadow: 2px 2px 6px #000000;
+    font-style: normal;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+.up {
+    font-weight: 300;
+    color: white;
+    text-align: right;
+    font-size: 22px;
+    line-height: 2rem;
+    margin-top: 6.3rem;
+    margin-left: 31px;
+}
+blockquote::before {
+    color: #6b6967;
+    content: open-quote;
+    font-size: 130px;
+    float: right;
+    /* line-height: 0.1em; */
+    margin-right: 0.15em;
+    vertical-align: -0.4em;
+    height: 20px;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sections{
+    width: 70%;
+    background-color: #f2f0f3;
+}
+.aside{
+    width: 30%;
+    background-color: #bab1ad;
+}
+aside ul li{
+   margin: 0px;
+}
+.service {
+    padding: 40px 80px;
+    width: 95%;
+}
+.service h2 {
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.service p {
+    padding-bottom: 0px;
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 1.25rem 0rem;
+}
+.service span {
+    text-transform: uppercase;
+    text-indent: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+i{
+    margin-right: 0.75rem;
+}
+
+
+
+.contact{
+    padding: 40px 80px;
+    width: 95%;
+}
+.cont__title {
+    color: #333333;
+    text-transform: uppercase;
+    border-bottom: 3px solid #949494;
+    width: 100%;
+    padding-left: 90px;
+    font-size: 45px;
+}
+.contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 0.3fr); */
+    gap: 12px;
+}
+.contact ul li {
+    font-size: 22px;
+    padding-bottom: 10px;
+    /* width: 20%; */
+}
+em {
+    font-weight: 600;
+    font-style: italic;
+}
+.inp {
+    font-size: 20px;
+    margin-top: 2rem;
+    background-color: #bab1ad;
+    border: 1px solid #bab1ad;
+    padding: 15px 22px;
+    width: 400px;
+    color: white;
+    border-radius: 6px;
+}
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  .btn {
+    font-size: 20px;
+    background-color: #67784d;
+    border: 1px solid #67784d;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 6px;
+    margin-left: 1rem;
+}
+
+
+aside li span {
+    color: white;
+    font-size: 90px;
+    font-weight: 100;
+}
+aside{
+    padding: 20px;
+}
+aside li p {
+    color: #484646;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+aside li {
+    padding: 50px 20px;
+}
