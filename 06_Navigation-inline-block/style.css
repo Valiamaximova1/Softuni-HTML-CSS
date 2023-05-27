@@ -1,0 +1,41 @@
+html{
+    font-family: Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+nav {
+   
+   display: inline-block;
+   
+}
+nav h1{
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    /* text-align: center; */
+    
+}
+nav ul li{
+    line-height: 10px;
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+
+}
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+main{
+    margin: 50px 0px;
+    border-top: 2px solid black;
+}
+
+/* •	Add font to the document: 
+•	Create a navigation bar 
+o	Add four list items in nav tag with a tags inside 
+o	Add display: inline-block; style for each item in the nav */
